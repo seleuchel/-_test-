@@ -1,0 +1,19 @@
+<!-- templates > bulletin > bulletin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  {% for board in boardobject %}
+    <p>-----------</p>
+    <p>제목: {{board.title}}</p>
+    <p>유형: {{board.content_type}}</p>
+    <p>내용: {{board.content}}</p>
+    <p>작성일자: {{board.write_date}}</p>
+    <p>-----------</p>
+  {% endfor %}
+</body>
+</html>

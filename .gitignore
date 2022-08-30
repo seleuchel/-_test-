@@ -1,0 +1,4 @@
+myvenv/
+bulletin/__pycache__/
+bulletin/migrations/__pycache__/
+config/__pycache__/
